@@ -1,0 +1,75 @@
+body {
+	background: #EEEEEE;
+}
+
+.container {
+    display: flex;
+}
+
+#add-note-button {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 100%;
+    background: #4AC701;
+    color: #FFFFFF;
+    outline: none;
+    border-color: #46b203;
+    cursor: pointer;
+}
+
+.note {
+    min-width: 200px;
+    min-height: 200px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.note-bar {
+    min-height: 30px;
+    background: #0E4C60;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.note-bar:hover {
+    cursor: move;
+}
+
+.close-button {
+    height: 18px;
+    width: 18px;
+    margin-right: 3px;
+    background: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.title-textarea {
+    background: transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    min-width: 80%;
+    max-height: 1.1em;
+    min-height: 1.1em;
+    margin-left: 3px;
+    resize: none;
+    border: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.note-textarea {
+    min-width: 200px;
+    min-height: 170px;
+    outline: none;
+    border: none;
+}
